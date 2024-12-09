@@ -69,7 +69,6 @@ const App = () => {
       <AddMovie addMovie={addMovie} />
       <MovieList movies={filteredMovies} />
       <Footer/>
-
     </div>
   );
 };
