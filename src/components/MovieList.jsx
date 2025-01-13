@@ -1,10 +1,8 @@
-// src/components/MovieList.jsx
-import React from "react";
 import MovieCard from "./MovieCard";
 
 const MovieList = ({ movies }) => {
   return (
-    <div className="movie-list">
+    <div className="flex flex-wrap justify-center gap-4 p-4">
       {movies.map((movie) => (
         <MovieCard key={movie.title} movie={movie} />
       ))}
